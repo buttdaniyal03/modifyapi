@@ -1,0 +1,40 @@
+
+.container{
+    margin: 0,auto;
+}
+
+.grid-cover{
+    background-color: black;
+    text-align: center;
+}
+
+  .grid-wrapper{
+    display: grid;
+    padding: 10px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background-color: gold;
+  
+  }
+  .inner-grid{
+    background-color: burlywood;
+  }
+  .text{
+    text-align: right;
+    padding-right: 75px;
+  }
+
+  .detail{
+    padding: 10px;
+
+  }
+
+.single-grid{
+    display: grid;
+    padding: 10px;
+    gap: 20px;
+    /* grid-template-columns: ( ); */
+    justify-content: center;
+    
+    background-color: gold;
+  }
